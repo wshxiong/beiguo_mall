@@ -25,3 +25,13 @@ class UsernameMobileAuthBackend(ModelBackend):
 
         if user is not None and user.check_password(password):
             return user
+
+
+# def demo(a):
+#     return a+2
+#
+# class Demo:
+#     a = demo(1)
+#
+# a = Demo()
+# print(a.a)
